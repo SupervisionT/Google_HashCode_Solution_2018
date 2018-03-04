@@ -26,6 +26,33 @@ We'll show a classic solution and a modern solution for each round.
 
 ## __Practice Round.__
 
+The practice round is about slicing pizza, easy!
+Google is asking you to slice the pizza to get the maximum number of slices with a condition. Each slice should have a certin number from each ingredients
+
+![alt text](http://codeforces.com/predownloaded/a3/6f/a36fd2408b59da01e83298660645137c095a04c9.png)
+
+You may read the problem statment and check the data from [here](https://github.com/SupervisionT/Google_HashCode_Solution_2018/tree/master/Pizza)
+
+So how to solve it ? let us go through both solutions, classic and modern.
+
+* *__Pizza Classic Solution__*
+
+Classic solutions are fine for small scale, small datasets and small projects as well. At the end you'll have what you need and it works. In the Classic solutions we'll use loops, nested loops and more loops!! and most of the times the big O notation will not be happy because it'll have exponential complexity as the data grow things will get more complex and costly.
+
+Let's go with the flow and see where things will lead us ...
+
+To solve the problem we'll loop over all the items and check for all possible combinations for each cell, choose one combination then move to the next point. That simple !!
+
+This algorithm called *The Greedy Algorithm*. It is easier to code and makes the choice that looks best at the moment. In our case we hope that the local optimal choice will lead to a globale optimal solution. But that is not true in this because there are no guarantees that your local choice will be the optimal for the next cell. Also you blocked a group of choices by your decision.
+
+To avoid this we may find all the possible combinations for each cell then iterate over all the possible combinations to find the best solution. And this is a solid plan.
+
+For small pizza this will work like a charm. But if you move to medium pizza mostly will code will take a very long time before it may crush! Your memory will not be able to handle it. As a quick eyeliner, break down your pizza into many small pieces and run your algorithm on each piece and it'll work. The thing is you'll lose the possible combinations at edges for each slice. There are some solutions to improve this method but at the end this is not the optimal solution.
+
+Finally, to avoid nested loops there are a couple of methodes that can be used. For example, you can converte the 2d array (x, y) into a single row array (1, Number_Of_All_Elements) then loop over them. But you need to find the right formula to get the combinations for each cell. Anothere way is to us a shifted version from the original 2d array then you can multiply them to get the combinations.
+
+* *__Pizza Modern Solution__*
+
 ![alt text](http://cucsa.org.uk/wp-content/uploads/2015/10/Work_In_Progress-300x269.png)
 
 ## __Online Qualification Round.__
