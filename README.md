@@ -1,5 +1,7 @@
 # Google HashCode Solution 2018
 
+![alt text](https://storage.googleapis.com/gweb-uniblog-publish-prod/images/hashcode_hero.max-1000x1000.png)
+
 Hello eveyone!
 In this repo I'll talk about my experiance in [Google HashCode challenge](https://hashcode.withgoogle.com/), how to think in the problems and how to solve the Pizza problem and the schaduling problem as well.
 
