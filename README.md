@@ -26,5 +26,8 @@ We'll show a classic solution and a modern solution for each round.
 
 ## __Practice Round.__
 
+![alt text](http://cucsa.org.uk/wp-content/uploads/2015/10/Work_In_Progress-300x269.png)
 
 ## __Online Qualification Round.__
+
+![alt text](http://cucsa.org.uk/wp-content/uploads/2015/10/Work_In_Progress-300x269.png)
