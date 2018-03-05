@@ -53,6 +53,12 @@ Finally, to avoid nested loops there are a couple of methods that can be used. F
 
 * *__Pizza Modern Solution__*
 
+Modern solution is the place where magic happen. We'll show how to use data structure algorigems to solve this problem.
+First, the pizza problem is not about pizza, surprise. The pizza problem representation of a spacial analysis problem.
+Spacial analysis defined as ([Wiki](https://en.wikipedia.org/wiki/Spatial_analysis)): Spatial analysis or spatial statistics includes any of the formal techniques which study entities using their topological, geometric, or geographic properties. Spacial analysis used in games, geo analysis and many othere fields.
+
+
+
 ![alt text](http://cucsa.org.uk/wp-content/uploads/2015/10/Work_In_Progress-300x269.png)
 
 ## __Online Qualification Round.__
